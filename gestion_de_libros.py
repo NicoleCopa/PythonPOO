@@ -82,3 +82,21 @@ while True:
         break
     else:
         print("Invalid option")
+        
+        
+"""
+| Paso | Entradas del Usuario                                                | Estado de la Lista de Libros                                                | Salida Esperada                                 |
+|------|---------------------------------------------------------------------|-----------------------------------------------------------------------------|-------------------------------------------------|
+| 1    | Opción: 1                                                           | Lista de libros vacía                                                       | -                                               |
+| 2    | Título: The Hunger Games<br>Autor: Suzanne Collins<br>Año: 2008     | [1. The Hunger Games (Author: Suzanne Collins, Year: 2008)]                 | -                                               |
+| 3    | Título: To Kill a Mockingbird<br>Autor: Harper Lee<br>Año: 2008     | [1. The Hunger Games (Author: Suzanne Collins, Year: 2008),...              | Mensaje de opción inválida                      |
+| 5    | Título: Pride and Prejudice<br>Autor: Jane Austen<br>Año: 1813      | [1. The Hunger Games (Author: Suzanne Collins, Year: 2008),...              | -                                               |
+| 6    | Opción: 3<br>Autor buscado: 2                                       | [1. The Hunger Games (Author: Suzanne Collins, Year: 2008),...              | Mensaje de no encontrar libros para el autor: 2 |
+| 7    | Opción: 2                                                           | [1. The Hunger Games (Author: Suzanne Collins, Year: 2008),...              | Se muestra la lista de libros                   |
+| 8    | Opción: A Game of Thrones                                           | [1. The Hunger Games (Author: Suzanne Collins, Year: 2008),...              | Mensaje de opción inválida                      |
+| 9    | Título: A Game of Thrones<br>Autor: George R.R. Martin<br>Año: 1996 | [1. The Hunger Games (Author: Suzanne Collins, Year: 2008),...              | -                                               |
+| 10   | Título: A Clash of Kings<br>Autor: George R.R. Martin<br>Año: 1998  | [1. The Hunger Games (Author: Suzanne Collins, Year: 2008),...              | -                                               |
+| 11   | Opción: 2                                                           | [1. The Hunger Games (Author: Suzanne Collins, Year: 2008),...              | Se muestra la lista de libros                   |
+| 12   | Opción: 3<br>Autor buscado: George R.R. Martin                      | [1. A Game of Thrones (Author: George R.R. Martin, Year: 1996),2. A Clash...| Se muestran los libros de George R.R. Martin    |
+| 13   | Opción: 4                                                           | [1. The Hunger Games (Author: Suzanne Collins, Year: 2008),<br>2. To Kill...| Mensaje de despedida                            |
+"""
