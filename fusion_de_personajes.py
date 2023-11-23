@@ -42,7 +42,7 @@ def crear_personaje():
 personajes = []
 
 while True:
-    print("\n--------------------------------------")
+    print("")
     print("1. Crear personaje")
     print("2. Fusionar personaje")
     print("3. Mostrar personajes")
