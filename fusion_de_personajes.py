@@ -1,3 +1,8 @@
+"""
+Ejercicio de Gestión de Personajes:
+Implementa una aplicación simple para gestionar personajes utilizando la clase Personaje. Cada personaje tiene un nombre, una fuerza y una velocidad. Además, puedes fusionar dos personajes para crear uno nuevo con características combinadas.
+"""
+
 class Personaje():
     def __init__(self, nombre, fuerza, velocidad):
         self.nombre = nombre
