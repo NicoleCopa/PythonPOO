@@ -4,7 +4,7 @@ Implementa una aplicación simple para gestionar personajes utilizando la clase 
 una fuerza y una velocidad. Además, puedes fusionar dos personajes para crear uno nuevo con características combinadas.
 """
 
-class Personaje():
+class Personaje:
     def __init__(self, nombre, fuerza, velocidad):
         self.nombre = nombre
         self.fuerza = fuerza

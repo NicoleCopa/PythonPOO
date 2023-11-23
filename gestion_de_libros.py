@@ -6,7 +6,7 @@ y buscar libros por autor.
 """
 
 # Definición de la clase Book que representa un libro con título, autor y año de publicación
-class Book():
+class Book:
     def __init__(self, title, author, year):
         self.title = title
         self.author = author
@@ -82,7 +82,6 @@ while True:
         break
     else:
         print("Invalid option")
-        
         
 """
 | Paso | Entradas del Usuario                                                | Estado de la Lista de Libros                                                | Salida Esperada                                 |
